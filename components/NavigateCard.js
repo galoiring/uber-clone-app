@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native'
+import { StyleSheet, Text, View, SafeAreaView, TouchableOpacity } from 'react-native'
 import React from 'react'
 import tw from "tailwind-react-native-classnames"
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete'
@@ -7,7 +7,6 @@ import { setDestination } from '../slices/navSlice'
 import { useDispatch } from 'react-redux'
 import { useNavigation } from '@react-navigation/native'
 import NavFavourites from './NavFavourites'
-import { TouchableOpacity } from 'react-native-gesture-handler'
 import { Icon } from "react-native-elements"
 
 const NavigateCard = () => {

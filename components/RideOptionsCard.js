@@ -1,7 +1,7 @@
-import { Image, StyleSheet, Text, View, SafeAreaView} from 'react-native'
+import { Image, StyleSheet, Text, View, SafeAreaView, TouchableOpacity} from 'react-native'
 import React, { useState } from 'react'
 import tw from "tailwind-react-native-classnames"
-import { FlatList, TouchableOpacity } from 'react-native-gesture-handler'
+import { FlatList } from 'react-native-gesture-handler'
 import { Icon } from "react-native-elements"
 import { useNavigation } from '@react-navigation/native'
 import { useSelector } from 'react-redux'
@@ -42,7 +42,7 @@ const RideOptionsCard = () => {
         style={tw`absolute top-1 left-5 z-50 p-3 rounded-full`} >
           <Icon name="chevron-left" type="fontawesome" />
         </TouchableOpacity>
-        <Text style={tw`text-center py-3 text-xl`} >Select A Ride - {travelTimeInformation?.distance.text} </Text>
+        <Text style={tw`text-center py-3 text-xl`} >Select A Ride - {travelTimeInformation?.distance?.text} </Text>
       </View>
 
       <FlatList 
@@ -62,14 +62,14 @@ const RideOptionsCard = () => {
           />
           <View style={tw`-ml-6`}>
             <Text style={tw`text-xl font-semibold`}>{title}</Text>
-            <Text>{travelTimeInformation?.duration.text} Travel Time</Text>
+            <Text>{travelTimeInformation?.duration?.text} Travel Time</Text>
           </View>
           <Text style={tw`text-xl`}> 
             {new Intl.NumberFormat(`il-IL`, {
               style: 'currency',
               currency: 'ILS',
             }).format(
-                (travelTimeInformation?.duration.value * SURGE_CHARGE_RATE * multiplier) / 100
+                (travelTimeInformation?.duration?.value * SURGE_CHARGE_RATE * multiplier) / 100
             
             
             )}
