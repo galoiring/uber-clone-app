@@ -1,0 +1,39 @@
+{
+  "files": {
+    "app.js": "/uber-clone-app/static/js/app.7eeed300.chunk.js",
+    "app.js.map": "/uber-clone-app/static/js/app.7eeed300.chunk.js.map",
+    "runtime~app.js": "/uber-clone-app/static/js/runtime~app.224ea0f3.js",
+    "runtime~app.js.map": "/uber-clone-app/static/js/runtime~app.224ea0f3.js.map",
+    "static/js/2.9e252363.chunk.js": "/uber-clone-app/static/js/2.9e252363.chunk.js",
+    "static/js/2.9e252363.chunk.js.map": "/uber-clone-app/static/js/2.9e252363.chunk.js.map",
+    "fonts/AntDesign.ttf": "/uber-clone-app/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/uber-clone-app/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/uber-clone-app/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/uber-clone-app/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/uber-clone-app/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/uber-clone-app/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/uber-clone-app/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/uber-clone-app/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/uber-clone-app/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/uber-clone-app/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/uber-clone-app/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/uber-clone-app/./fonts/SimpleLineIcons.ttf",
+    "favicon-16.png": "/uber-clone-app/favicon-16.png",
+    "favicon-32.png": "/uber-clone-app/favicon-32.png",
+    "favicon.ico": "/uber-clone-app/favicon.ico",
+    "index.html": "/uber-clone-app/index.html",
+    "manifest.json": "/uber-clone-app/manifest.json",
+    "serve.json": "/uber-clone-app/serve.json",
+    "static/js/2.9e252363.chunk.js.LICENSE.txt": "/uber-clone-app/static/js/2.9e252363.chunk.js.LICENSE.txt",
+    "static/media/bell.png": "/uber-clone-app/static/media/bell.cf04af27.png",
+    "static/media/heart.png": "/uber-clone-app/static/media/heart.23b5c2c0.png",
+    "static/media/powered_by_google_on_white.png": "/uber-clone-app/static/media/powered_by_google_on_white.f241a554.png",
+    "static/media/rocket.png": "/uber-clone-app/static/media/rocket.d2f3bf41.png",
+    "static/media/star.png": "/uber-clone-app/static/media/star.69c71386.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.224ea0f3.js",
+    "static/js/2.9e252363.chunk.js",
+    "static/js/app.7eeed300.chunk.js"
+  ]
+}
