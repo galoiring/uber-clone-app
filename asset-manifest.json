@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/uber-clone-app/static/js/app.7eeed300.chunk.js",
-    "app.js.map": "/uber-clone-app/static/js/app.7eeed300.chunk.js.map",
+    "app.js": "/uber-clone-app/static/js/app.b91eab64.chunk.js",
+    "app.js.map": "/uber-clone-app/static/js/app.b91eab64.chunk.js.map",
     "runtime~app.js": "/uber-clone-app/static/js/runtime~app.224ea0f3.js",
     "runtime~app.js.map": "/uber-clone-app/static/js/runtime~app.224ea0f3.js.map",
-    "static/js/2.9e252363.chunk.js": "/uber-clone-app/static/js/2.9e252363.chunk.js",
-    "static/js/2.9e252363.chunk.js.map": "/uber-clone-app/static/js/2.9e252363.chunk.js.map",
+    "static/js/2.229ba8d7.chunk.js": "/uber-clone-app/static/js/2.229ba8d7.chunk.js",
+    "static/js/2.229ba8d7.chunk.js.map": "/uber-clone-app/static/js/2.229ba8d7.chunk.js.map",
     "fonts/AntDesign.ttf": "/uber-clone-app/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/uber-clone-app/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/uber-clone-app/./fonts/Feather.ttf",
@@ -24,7 +24,7 @@
     "index.html": "/uber-clone-app/index.html",
     "manifest.json": "/uber-clone-app/manifest.json",
     "serve.json": "/uber-clone-app/serve.json",
-    "static/js/2.9e252363.chunk.js.LICENSE.txt": "/uber-clone-app/static/js/2.9e252363.chunk.js.LICENSE.txt",
+    "static/js/2.229ba8d7.chunk.js.LICENSE.txt": "/uber-clone-app/static/js/2.229ba8d7.chunk.js.LICENSE.txt",
     "static/media/bell.png": "/uber-clone-app/static/media/bell.cf04af27.png",
     "static/media/heart.png": "/uber-clone-app/static/media/heart.23b5c2c0.png",
     "static/media/powered_by_google_on_white.png": "/uber-clone-app/static/media/powered_by_google_on_white.f241a554.png",
@@ -33,7 +33,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.224ea0f3.js",
-    "static/js/2.9e252363.chunk.js",
-    "static/js/app.7eeed300.chunk.js"
+    "static/js/2.229ba8d7.chunk.js",
+    "static/js/app.b91eab64.chunk.js"
   ]
 }
