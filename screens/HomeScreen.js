@@ -26,7 +26,9 @@ const HomeScreen = () => {
                     }}
                 />
                 <GooglePlacesAutocomplete 
-                    placeholder='Where From?'
+                    onFail={error => console.error(error)}
+
+                    placeholder='Where From Are?'
                     styles={{
                         container: {
                             flex: 0,
@@ -42,7 +44,6 @@ const HomeScreen = () => {
                             description: data.description,
                             })
                         );
-
                         dispatch(setDestination(null));
                     }}
                     fetchDetails={true}
